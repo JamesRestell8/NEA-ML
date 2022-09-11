@@ -1,0 +1,7 @@
+The venv already exists, with packages installed.
+
+To activate the venv, simply type "NEAvenv\Scripts\activate" into the command line
+
+Make sure directory is "C:\Users\james\OneDrive\Documents\School\Sixth Form\Computing\NEA Program" 
+
+Use "python -m pip install..." if normal pip is not working

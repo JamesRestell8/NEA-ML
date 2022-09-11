@@ -1,0 +1,7 @@
+Lets say r = requests.get("some api endpoint")
+You can see the json keys by:
+json = r.json()
+print(json.keys())
+
+someDataFrame.head() shows first five rows of a dataframe
+someDataFrame.columns() shows the title of all columns in a dataframe

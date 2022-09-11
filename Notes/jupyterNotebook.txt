@@ -1,0 +1,1 @@
+To activate the Jupyter server type "jupyter notebook" in the console, making sure the venv is active.

@@ -1,0 +1,27 @@
+See (https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) for more detail
+
+NOTE: all api endpoints use "https://fantasy.premierleague.com/api/" as the base url
+
+bootstrap-static/ -> General Information
+
+fixtures/ -> fixture information
+
+element-summary/{element_id}/ -> player detailed information (uses player id as a parameter)
+
+event/{event_id}/live/ -> gameweek live data (gameweek number passed in as parameter)
+
+entry/{manager_id}/ -> Manager/User information (manager id can be found in the url when you 'view gameweek history' on FPL website)
+
+entry/{manager_id}/history -> Manager/User history, including past seasons (probably not needed)
+
+leagues-classic/{league_id}/standings -> returns information about the standings of a particular league (league id needed)
+
+/my-team/{manager_id}/ -> Manager team info (requires authorisation (see https://medium.com/@bram.vanherle1/fantasy-premier-league-api-authentication-guide-2f7aeb2382e4))
+
+entry/{manager_id}/event/{event_id}/picks/ -> info about a managers team by gameweek (manager id and gameweek number needed)
+
+event-status/ -> info about whether bonus points and leagues have been updated yet.
+
+dream-team/{event_id}/ -> information about the best possible team by gameweek (gameweek number needed)
+
+team/set-piece-notes/ -> set piece takers (probably not needed)

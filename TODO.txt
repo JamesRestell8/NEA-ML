@@ -1,0 +1,3 @@
+Master stats csv is now finished. Now you need to analyse it with the Random Forest Regression Algo (use some MEA distance etc. see kaggle).
+Create bot FPL team and also make yours.
+Save the ML model into a format that can be used in the final web app.
